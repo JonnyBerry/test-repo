@@ -45,7 +45,7 @@ a{
 
 a:hover{
   color:darkorange;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 #centre-new-york {
@@ -54,6 +54,7 @@ a:hover{
 
 #new-york-div {
     padding-left: 40%;
+    height:300px;
 }
 
 #banner-image{
@@ -61,6 +62,7 @@ a:hover{
       background-image:url(https://images.unsplash.com/photo-1546436836-07a91091f160?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80);
       background-color: transparent;
       background-position: center;
+      height: 20%;
     }
 
     h1{color:darkmagenta;
