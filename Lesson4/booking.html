@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order Form</title>
+
+    <style>
+
+          h1{
+            font-size: 200%;
+            text-align: center;
+          }
+
+          #mainhead {
+        background-color: orchid;
+        margin:50px 100px 50px;
+          }
+          body{
+            background-color: cornsilk;
+          }
+
+    </style>
+
+  <nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link disabled">Disabled</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+ </head>
+
+    <body>
+
+      <div id="mainhead"><h1>Booking Form</h1></div>
+        <br>
+        <form align = "center">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" autofocus placeholder="Enter your first name"><br>
+            <label for="1name">Last Name:</label><br>
+            <input type="text" id="1name" name="1name" placeholder="Enter your second name"><br>
+            <label for="fromDate" min="2021-11-02" max="2202-02-07" >First Date Of travel:</label><br>
+            <input type="date" id="FromDate" name="FromDate"><br>
+            <label for="toDate">Last date of travel:</label><br>
+            <input type="date" id="todate" name="toDate"><br>
+            <label for="npass">Number of traveller(s):</label><br>
+            <input type="number" id="npass" name="npass" value="1" ><br>
+            <br>
+            <input type="submit" value="Confirm Order">
+
+
+
+
+     </form>
+
+  </body>
+</html>
