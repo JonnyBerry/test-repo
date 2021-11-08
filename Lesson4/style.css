@@ -1,0 +1,90 @@
+body,html{
+  margin: 0;
+  padding:0;
+}
+
+header{
+  width:20%;
+  height: 20%;
+  border: black;
+}
+
+  h2 {
+  color: darkmagenta;
+  text-align: center;
+  font-size: xx-large;
+  font-family: Copperplate;
+  padding: 3px;
+  margin-left: 2%;
+  margin-top: 10px;
+}
+
+span{
+  color:darkmagenta ;
+}
+
+ul{
+  width: min-content;
+  float:left;
+  margin-top:8px;
+}
+
+li{
+  display:inline-block;
+  padding:15px 30px;
+}
+
+a{
+  text-align: center;
+  color: darkmagenta;
+  text-decoration: none;
+  font-family: Copperplate;
+  font-size: 1.2vw;
+  text-decoration: none;
+}
+
+a:hover{
+  color:darkorange;
+  transition: 0.5s;
+}
+
+#bannerimage{
+      width: 100%;
+      background-image:url(https://images.unsplash.com/photo-1546436836-07a91091f160?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80);
+      background-color: transparent;
+      background-position: center;
+    }
+
+    h1{color:darkmagenta;
+    text-align: center;
+    font-size:xx-large;
+    font-family: Copperplate;
+    padding: 3px;
+    margin-left: 2%;
+    margin-top: 10px;}
+
+    .p{font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: black;
+    padding: 20px;
+    margin: left 220px;
+    background-color: orange;}
+
+    header{
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    }
+
+    .form{
+      text-align: center;
+    }
+
+    img{
+  height: 400px;
+  }
+
+  .navbar{
+  text-align: center;
+}
