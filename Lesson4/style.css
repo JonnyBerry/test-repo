@@ -45,14 +45,24 @@ a{
 
 a:hover{
   color:darkorange;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
-#bannerimage{
+#centre-new-york {
+    text-align: center;
+}
+
+#new-york-div {
+    padding-left: 40%;
+    height:300px;
+}
+
+#banner-image{
       width: 100%;
       background-image:url(https://images.unsplash.com/photo-1546436836-07a91091f160?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1474&q=80);
       background-color: transparent;
       background-position: center;
+      height: 20%;
     }
 
     h1{color:darkmagenta;
@@ -63,13 +73,17 @@ a:hover{
     margin-left: 2%;
     margin-top: 10px;}
 
-    .p{font-size: x-large;
+    p{font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     border: black;
     padding: 20px;
     margin: left 220px;
-    background-color: orange;}
+    background-color:orange;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 30px;
+}
 
     header{
     text-align: center;
