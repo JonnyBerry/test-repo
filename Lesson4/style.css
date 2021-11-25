@@ -73,13 +73,17 @@ a:hover{
     margin-left: 2%;
     margin-top: 10px;}
 
-    .p{font-size: x-large;
+    p{font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     border: black;
     padding: 20px;
     margin: left 220px;
-    background-color: orange;}
+    background-color:orange;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 30px;
+}
 
     header{
     text-align: center;
